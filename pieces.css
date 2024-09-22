@@ -1,0 +1,150 @@
+.piece{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    z-index: 3;
+}
+.piece:hover{
+    cursor: grab;
+}
+/*black pieces*/
+.bp{
+    background-image:url("pieces/bp.png");
+}
+.br{
+    background-image:url("pieces/br.png");
+}
+.bb{
+    background-image:url("pieces/bb.png");
+}
+.bn{
+    background-image:url("pieces/bn.png");
+}
+.bq{
+    background-image:url("pieces/bq.png");
+}
+.bk{
+    background-image:url("pieces/bk.png");
+}
+/*white pieces*/
+.wp{
+    background-image:url("pieces/wp.png");
+}
+.wr{
+    background-image:url("pieces/wr.png");
+}
+.wb{
+    background-image:url("pieces/wb.png");
+}
+.wn{
+    background-image:url("pieces/wn.png");
+}
+.wq{
+    background-image:url("pieces/wq.png");
+}
+.wk{
+    background-image:url("pieces/wk.png");
+}
+.hl{
+    width:100%;
+    height: 100%;
+    background-color:transparent;
+    border: none;
+    opacity: 80%;
+    background-image: url("pieces/hl.png");
+    background-size: 60% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.hl:hover{
+    cursor: pointer;
+}
+.khl{
+    width:100%;
+    height: 100%;
+    background-color:transparent;
+    opacity: 90%;
+    background-image: url("pieces/khl.png");
+    background-size: 110% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    z-index: 2;
+}
+.kdanger{
+    background-color:rgb(186, 42, 42);
+    opacity: 90%
+}
+.khl:hover{
+    cursor: pointer;
+}
+.thl{
+    background-color: transparent;
+}
+.thl:hover{
+    cursor: pointer;
+}
+.chessboard{
+    display:flex;
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    background-color: transparent;
+    z-index: 0;
+    align-items: center;
+    justify-content: center;
+    bottom: 7.9%;
+}
+.up{
+    display: none;
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    background-color:rgb(0, 110, 255);
+    z-index: 2;
+    border-radius: 10px;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: center;
+}
+.upiece{
+    background-color: transparent;
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    z-index: 2;
+    justify-self: center;
+}
+.upiece:hover{
+    cursor: pointer;
+}
+.ubr{
+    background-image:url("pieces/br.png");
+}
+.ubb{
+    background-image:url("pieces/bb.png");
+}
+.ubn{
+    background-image:url("pieces/bn.png");
+}
+.ubq{
+    background-image:url("pieces/bq.png");
+}
+.uwr{
+    background-image:url("pieces/wr.png");
+}
+.uwb{
+    background-image:url("pieces/wb.png");
+}
+.uwn{
+    background-image:url("pieces/wn.png");
+}
+.uwq{
+    background-image:url("pieces/wq.png");
+}
