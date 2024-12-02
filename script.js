@@ -168,7 +168,6 @@ pieces.forEach(p=>{
     p.setAttribute("id",`dp-${i}`)
     p.setAttribute("draggable",true)
     p.addEventListener("dragstart",function(ev){
-        console.log(nottargeted(null,bkpos,"wq","wr","wb","wn","wp"))
         ev.dataTransfer.setData("text",ev.target.id)
     })
     i++
