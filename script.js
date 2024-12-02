@@ -3,7 +3,6 @@ const rot=document.querySelector(".rot");
 const reset=document.querySelector(".reset");
 const letters = document.querySelectorAll(".letters");
 const nums = document.querySelectorAll(".nums");
-var rotdeg=0;
 mvaud=new Audio("pieces/mvs.mp3");
 cpaud=new Audio("pieces/cap.mp3");
 function playground (board,letters,nums){
@@ -930,10 +929,6 @@ checkbw();
 kdhl();
 gameplay(1);
 dragdrop();
-rot.onclick=function(){
-    rotdeg+=90
-    rotate(rotdeg);
-}
 reset.onclick=function(){
     ps=document.querySelectorAll(".piece")
     hls=document.querySelectorAll(".hl")
@@ -943,5 +938,4 @@ reset.onclick=function(){
     pieces();
     checkbw();
     gameplay(1);
-    
 }
